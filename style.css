@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "iranyekan";
+}
+#header {
+  width: 100%;
+  background: #141414;
+  background-image: url(01.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+#container {
+  margin: 0 auto;
+  width: 45rem;
+}
+#title {
+  font-size: 2.9rem;
+  color: #e0e0e0;
+}
+#paragraph {
+  margin-top: -0.8rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #e0e0e0;
+}
+#form-input {
+  width: 100%;
+  padding: 1.4rem;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  border: 0.15rem rgb(141, 141, 141) solid;
+  background: #ffffff36;
+  color: #e0e0e0;
+}
+#form-input:focus {
+  outline: none;
+}
+#menu {
+  margin: 2.5rem 0;
+}
+#menu li {
+  list-style-type: none;
+  padding: 0.9rem;
+  background: #ffffff3b;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  border-bottom: 0.15rem rgb(141, 141, 141) solid;
+  margin-bottom: 0.2rem;
+  color: #e0e0e0;
+}
+#total {
+  color: #e0e0e0;
+  font-size: 1.5rem;
+}
